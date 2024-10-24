@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A26C41DA2CC685EB00698CDF /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C41D92CC685EB00698CDF /* APIEndpoint.swift */; };
+		A26C41DC2CC6861A00698CDF /* UnsplashPhotosEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C41DB2CC6861A00698CDF /* UnsplashPhotosEndpoint.swift */; };
+		A26C41DE2CC6885900698CDF /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C41DD2CC6885900698CDF /* APIClient.swift */; };
+		A26C41E02CC6889600698CDF /* URLSessionAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C41DF2CC6889600698CDF /* URLSessionAPIClient.swift */; };
+		A26C41E22CC688E000698CDF /* UnsplashCollectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C41E12CC688E000698CDF /* UnsplashCollectionService.swift */; };
+		A26C41E52CC695EB00698CDF /* UIColor+HEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C41E42CC695EB00698CDF /* UIColor+HEX.swift */; };
+		A26C41EB2CC6E13600698CDF /* ListOfUnsplashPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C41EA2CC6E13600698CDF /* ListOfUnsplashPhoto.swift */; };
+		A26C41F32CC7CC5300698CDF /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A26C41F22CC7CC5300698CDF /* Localizable.xcstrings */; };
+		A26C41F52CCA3DBC00698CDF /* URLSessionAPIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C41F42CCA3DBC00698CDF /* URLSessionAPIClientTests.swift */; };
+		A29F40012CBFBC0C0093BB8D /* PhotoPickerItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F40002CBFBC0C0093BB8D /* PhotoPickerItemView.swift */; };
+		A29F40062CBFC0F70093BB8D /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F40052CBFC0F70093BB8D /* PhotoPickerView.swift */; };
+		A29F40082CBFC3820093BB8D /* PhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F40072CBFC3820093BB8D /* PhotoDetailView.swift */; };
+		A29F401D2CBFF9A10093BB8D /* UnsplashConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F401C2CBFF9A10093BB8D /* UnsplashConfiguration.swift */; };
+		A29F40222CBFFB510093BB8D /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F40212CBFFB510093BB8D /* AppConfig.swift */; };
+		A29F402B2CBFFF1E0093BB8D /* UnsplashPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F402A2CBFFF1E0093BB8D /* UnsplashPhoto.swift */; };
+		A2CF3BB72CB3E5D5003CA5E8 /* PhotoPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF3BB62CB3E5D5003CA5E8 /* PhotoPickerApp.swift */; };
+		A2CF3BBB2CB3E5D6003CA5E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2CF3BBA2CB3E5D6003CA5E8 /* Assets.xcassets */; };
+		A2CF3BBF2CB3E5D6003CA5E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2CF3BBE2CB3E5D6003CA5E8 /* Preview Assets.xcassets */; };
+		A2CF3BC92CB3E5D7003CA5E8 /* PhotoPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF3BC82CB3E5D7003CA5E8 /* PhotoPickerTests.swift */; };
+		A2CF3BD32CB3E5D7003CA5E8 /* PhotoPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF3BD22CB3E5D7003CA5E8 /* PhotoPickerUITests.swift */; };
+		A2CF3BD52CB3E5D7003CA5E8 /* PhotoPickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF3BD42CB3E5D7003CA5E8 /* PhotoPickerUITestsLaunchTests.swift */; };
+		A2CF3BE22CB3E853003CA5E8 /* PhotoPickerConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A2CF3BE12CB3E853003CA5E8 /* PhotoPickerConfig.xcconfig */; };
+		A2CF3BE52CBFB98D003CA5E8 /* PhotoPickerUnsplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF3BE42CBFB98D003CA5E8 /* PhotoPickerUnsplashViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2CF3BC52CB3E5D7003CA5E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2CF3BAB2CB3E5D5003CA5E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2CF3BB22CB3E5D5003CA5E8;
+			remoteInfo = PhotoPicker;
+		};
+		A2CF3BCF2CB3E5D7003CA5E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2CF3BAB2CB3E5D5003CA5E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2CF3BB22CB3E5D5003CA5E8;
+			remoteInfo = PhotoPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A26C41D92CC685EB00698CDF /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		A26C41DB2CC6861A00698CDF /* UnsplashPhotosEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashPhotosEndpoint.swift; sourceTree = "<group>"; };
+		A26C41DD2CC6885900698CDF /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A26C41DF2CC6889600698CDF /* URLSessionAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionAPIClient.swift; sourceTree = "<group>"; };
+		A26C41E12CC688E000698CDF /* UnsplashCollectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashCollectionService.swift; sourceTree = "<group>"; };
+		A26C41E42CC695EB00698CDF /* UIColor+HEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HEX.swift"; sourceTree = "<group>"; };
+		A26C41EA2CC6E13600698CDF /* ListOfUnsplashPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfUnsplashPhoto.swift; sourceTree = "<group>"; };
+		A26C41F22CC7CC5300698CDF /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		A26C41F42CCA3DBC00698CDF /* URLSessionAPIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionAPIClientTests.swift; sourceTree = "<group>"; };
+		A29F40002CBFBC0C0093BB8D /* PhotoPickerItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerItemView.swift; sourceTree = "<group>"; };
+		A29F40052CBFC0F70093BB8D /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
+		A29F40072CBFC3820093BB8D /* PhotoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailView.swift; sourceTree = "<group>"; };
+		A29F401C2CBFF9A10093BB8D /* UnsplashConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashConfiguration.swift; sourceTree = "<group>"; };
+		A29F40212CBFFB510093BB8D /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		A29F402A2CBFFF1E0093BB8D /* UnsplashPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashPhoto.swift; sourceTree = "<group>"; };
+		A2CF3BB32CB3E5D5003CA5E8 /* PhotoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CF3BB62CB3E5D5003CA5E8 /* PhotoPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerApp.swift; sourceTree = "<group>"; };
+		A2CF3BBA2CB3E5D6003CA5E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2CF3BBC2CB3E5D6003CA5E8 /* PhotoPicker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotoPicker.entitlements; sourceTree = "<group>"; };
+		A2CF3BBE2CB3E5D6003CA5E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2CF3BC42CB3E5D7003CA5E8 /* PhotoPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CF3BC82CB3E5D7003CA5E8 /* PhotoPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerTests.swift; sourceTree = "<group>"; };
+		A2CF3BCE2CB3E5D7003CA5E8 /* PhotoPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CF3BD22CB3E5D7003CA5E8 /* PhotoPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerUITests.swift; sourceTree = "<group>"; };
+		A2CF3BD42CB3E5D7003CA5E8 /* PhotoPickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2CF3BE12CB3E853003CA5E8 /* PhotoPickerConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = PhotoPickerConfig.xcconfig; sourceTree = "<group>"; };
+		A2CF3BE42CBFB98D003CA5E8 /* PhotoPickerUnsplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerUnsplashViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2CF3BB02CB3E5D5003CA5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CF3BC12CB3E5D7003CA5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CF3BCB2CB3E5D7003CA5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A26C41E32CC695D000698CDF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A26C41E42CC695EB00698CDF /* UIColor+HEX.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A29F40142CBFF71E0093BB8D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A29F40292CBFFF0C0093BB8D /* Models */,
+				A29F40342CC00C4C0093BB8D /* Endpoints */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A29F401B2CBFF97F0093BB8D /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				A29F40212CBFFB510093BB8D /* AppConfig.swift */,
+				A29F401C2CBFF9A10093BB8D /* UnsplashConfiguration.swift */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		A29F40292CBFFF0C0093BB8D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A29F402A2CBFFF1E0093BB8D /* UnsplashPhoto.swift */,
+				A26C41EA2CC6E13600698CDF /* ListOfUnsplashPhoto.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A29F40332CC00C1D0093BB8D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A29F40142CBFF71E0093BB8D /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A29F40342CC00C4C0093BB8D /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				A26C41D92CC685EB00698CDF /* APIEndpoint.swift */,
+				A26C41DB2CC6861A00698CDF /* UnsplashPhotosEndpoint.swift */,
+				A26C41DD2CC6885900698CDF /* APIClient.swift */,
+				A26C41DF2CC6889600698CDF /* URLSessionAPIClient.swift */,
+				A26C41E12CC688E000698CDF /* UnsplashCollectionService.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		A2CF3BAA2CB3E5D5003CA5E8 = {
+			isa = PBXGroup;
+			children = (
+				A2CF3BE12CB3E853003CA5E8 /* PhotoPickerConfig.xcconfig */,
+				A2CF3BB52CB3E5D5003CA5E8 /* PhotoPicker */,
+				A2CF3BC72CB3E5D7003CA5E8 /* PhotoPickerTests */,
+				A2CF3BD12CB3E5D7003CA5E8 /* PhotoPickerUITests */,
+				A2CF3BB42CB3E5D5003CA5E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2CF3BB42CB3E5D5003CA5E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF3BB32CB3E5D5003CA5E8 /* PhotoPicker.app */,
+				A2CF3BC42CB3E5D7003CA5E8 /* PhotoPickerTests.xctest */,
+				A2CF3BCE2CB3E5D7003CA5E8 /* PhotoPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2CF3BB52CB3E5D5003CA5E8 /* PhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF3BB62CB3E5D5003CA5E8 /* PhotoPickerApp.swift */,
+				A29F401B2CBFF97F0093BB8D /* Configs */,
+				A26C41E32CC695D000698CDF /* Extensions */,
+				A2CF3BE82CBFBA09003CA5E8 /* ViewModel */,
+				A2CF3BE72CBFB9F4003CA5E8 /* View */,
+				A29F40332CC00C1D0093BB8D /* Services */,
+				A2CF3BE62CBFB9CF003CA5E8 /* Settings */,
+				A2CF3BBD2CB3E5D6003CA5E8 /* Preview Content */,
+			);
+			path = PhotoPicker;
+			sourceTree = "<group>";
+		};
+		A2CF3BBD2CB3E5D6003CA5E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF3BBE2CB3E5D6003CA5E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2CF3BC72CB3E5D7003CA5E8 /* PhotoPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF3BC82CB3E5D7003CA5E8 /* PhotoPickerTests.swift */,
+				A26C41F42CCA3DBC00698CDF /* URLSessionAPIClientTests.swift */,
+			);
+			path = PhotoPickerTests;
+			sourceTree = "<group>";
+		};
+		A2CF3BD12CB3E5D7003CA5E8 /* PhotoPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF3BD22CB3E5D7003CA5E8 /* PhotoPickerUITests.swift */,
+				A2CF3BD42CB3E5D7003CA5E8 /* PhotoPickerUITestsLaunchTests.swift */,
+			);
+			path = PhotoPickerUITests;
+			sourceTree = "<group>";
+		};
+		A2CF3BE62CBFB9CF003CA5E8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF3BBC2CB3E5D6003CA5E8 /* PhotoPicker.entitlements */,
+				A2CF3BBA2CB3E5D6003CA5E8 /* Assets.xcassets */,
+				A26C41F22CC7CC5300698CDF /* Localizable.xcstrings */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A2CF3BE72CBFB9F4003CA5E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A29F40002CBFBC0C0093BB8D /* PhotoPickerItemView.swift */,
+				A29F40052CBFC0F70093BB8D /* PhotoPickerView.swift */,
+				A29F40072CBFC3820093BB8D /* PhotoDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2CF3BE82CBFBA09003CA5E8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A2CF3BE42CBFB98D003CA5E8 /* PhotoPickerUnsplashViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2CF3BB22CB3E5D5003CA5E8 /* PhotoPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2CF3BD82CB3E5D7003CA5E8 /* Build configuration list for PBXNativeTarget "PhotoPicker" */;
+			buildPhases = (
+				A2CF3BAF2CB3E5D5003CA5E8 /* Sources */,
+				A2CF3BB02CB3E5D5003CA5E8 /* Frameworks */,
+				A2CF3BB12CB3E5D5003CA5E8 /* Resources */,
+				A2CF3BE32CB3F13C003CA5E8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoPicker;
+			productName = PhotoPicker;
+			productReference = A2CF3BB32CB3E5D5003CA5E8 /* PhotoPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2CF3BC32CB3E5D7003CA5E8 /* PhotoPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2CF3BDB2CB3E5D7003CA5E8 /* Build configuration list for PBXNativeTarget "PhotoPickerTests" */;
+			buildPhases = (
+				A2CF3BC02CB3E5D7003CA5E8 /* Sources */,
+				A2CF3BC12CB3E5D7003CA5E8 /* Frameworks */,
+				A2CF3BC22CB3E5D7003CA5E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2CF3BC62CB3E5D7003CA5E8 /* PBXTargetDependency */,
+			);
+			name = PhotoPickerTests;
+			productName = PhotoPickerTests;
+			productReference = A2CF3BC42CB3E5D7003CA5E8 /* PhotoPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2CF3BCD2CB3E5D7003CA5E8 /* PhotoPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2CF3BDE2CB3E5D7003CA5E8 /* Build configuration list for PBXNativeTarget "PhotoPickerUITests" */;
+			buildPhases = (
+				A2CF3BCA2CB3E5D7003CA5E8 /* Sources */,
+				A2CF3BCB2CB3E5D7003CA5E8 /* Frameworks */,
+				A2CF3BCC2CB3E5D7003CA5E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2CF3BD02CB3E5D7003CA5E8 /* PBXTargetDependency */,
+			);
+			name = PhotoPickerUITests;
+			productName = PhotoPickerUITests;
+			productReference = A2CF3BCE2CB3E5D7003CA5E8 /* PhotoPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2CF3BAB2CB3E5D5003CA5E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A2CF3BB22CB3E5D5003CA5E8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A2CF3BC32CB3E5D7003CA5E8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A2CF3BB22CB3E5D5003CA5E8;
+					};
+					A2CF3BCD2CB3E5D7003CA5E8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A2CF3BB22CB3E5D5003CA5E8;
+					};
+				};
+			};
+			buildConfigurationList = A2CF3BAE2CB3E5D5003CA5E8 /* Build configuration list for PBXProject "PhotoPicker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2CF3BAA2CB3E5D5003CA5E8;
+			productRefGroup = A2CF3BB42CB3E5D5003CA5E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2CF3BB22CB3E5D5003CA5E8 /* PhotoPicker */,
+				A2CF3BC32CB3E5D7003CA5E8 /* PhotoPickerTests */,
+				A2CF3BCD2CB3E5D7003CA5E8 /* PhotoPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2CF3BB12CB3E5D5003CA5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CF3BE22CB3E853003CA5E8 /* PhotoPickerConfig.xcconfig in Resources */,
+				A2CF3BBF2CB3E5D6003CA5E8 /* Preview Assets.xcassets in Resources */,
+				A26C41F32CC7CC5300698CDF /* Localizable.xcstrings in Resources */,
+				A2CF3BBB2CB3E5D6003CA5E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CF3BC22CB3E5D7003CA5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CF3BCC2CB3E5D7003CA5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2CF3BE32CB3F13C003CA5E8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2CF3BAF2CB3E5D5003CA5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29F40012CBFBC0C0093BB8D /* PhotoPickerItemView.swift in Sources */,
+				A26C41E02CC6889600698CDF /* URLSessionAPIClient.swift in Sources */,
+				A29F40062CBFC0F70093BB8D /* PhotoPickerView.swift in Sources */,
+				A29F40082CBFC3820093BB8D /* PhotoDetailView.swift in Sources */,
+				A26C41EB2CC6E13600698CDF /* ListOfUnsplashPhoto.swift in Sources */,
+				A2CF3BE52CBFB98D003CA5E8 /* PhotoPickerUnsplashViewModel.swift in Sources */,
+				A29F402B2CBFFF1E0093BB8D /* UnsplashPhoto.swift in Sources */,
+				A26C41DE2CC6885900698CDF /* APIClient.swift in Sources */,
+				A26C41E52CC695EB00698CDF /* UIColor+HEX.swift in Sources */,
+				A26C41DA2CC685EB00698CDF /* APIEndpoint.swift in Sources */,
+				A29F401D2CBFF9A10093BB8D /* UnsplashConfiguration.swift in Sources */,
+				A2CF3BB72CB3E5D5003CA5E8 /* PhotoPickerApp.swift in Sources */,
+				A26C41E22CC688E000698CDF /* UnsplashCollectionService.swift in Sources */,
+				A29F40222CBFFB510093BB8D /* AppConfig.swift in Sources */,
+				A26C41DC2CC6861A00698CDF /* UnsplashPhotosEndpoint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CF3BC02CB3E5D7003CA5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26C41F52CCA3DBC00698CDF /* URLSessionAPIClientTests.swift in Sources */,
+				A2CF3BC92CB3E5D7003CA5E8 /* PhotoPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CF3BCA2CB3E5D7003CA5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CF3BD32CB3E5D7003CA5E8 /* PhotoPickerUITests.swift in Sources */,
+				A2CF3BD52CB3E5D7003CA5E8 /* PhotoPickerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2CF3BC62CB3E5D7003CA5E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2CF3BB22CB3E5D5003CA5E8 /* PhotoPicker */;
+			targetProxy = A2CF3BC52CB3E5D7003CA5E8 /* PBXContainerItemProxy */;
+		};
+		A2CF3BD02CB3E5D7003CA5E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2CF3BB22CB3E5D5003CA5E8 /* PhotoPicker */;
+			targetProxy = A2CF3BCF2CB3E5D7003CA5E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A2CF3BD62CB3E5D7003CA5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2CF3BE12CB3E853003CA5E8 /* PhotoPickerConfig.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2CF3BD72CB3E5D7003CA5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2CF3BE12CB3E853003CA5E8 /* PhotoPickerConfig.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A2CF3BD92CB3E5D7003CA5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhotoPicker/Settings/PhotoPicker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhotoPicker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2CF3BDA2CB3E5D7003CA5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhotoPicker/Settings/PhotoPicker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhotoPicker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2CF3BDC2CB3E5D7003CA5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daria.suprun.PhotoPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoPicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhotoPicker";
+			};
+			name = Debug;
+		};
+		A2CF3BDD2CB3E5D7003CA5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daria.suprun.PhotoPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoPicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhotoPicker";
+			};
+			name = Release;
+		};
+		A2CF3BDF2CB3E5D7003CA5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daria.suprun.PhotoPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotoPicker;
+			};
+			name = Debug;
+		};
+		A2CF3BE02CB3E5D7003CA5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daria.suprun.PhotoPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotoPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2CF3BAE2CB3E5D5003CA5E8 /* Build configuration list for PBXProject "PhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CF3BD62CB3E5D7003CA5E8 /* Debug */,
+				A2CF3BD72CB3E5D7003CA5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2CF3BD82CB3E5D7003CA5E8 /* Build configuration list for PBXNativeTarget "PhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CF3BD92CB3E5D7003CA5E8 /* Debug */,
+				A2CF3BDA2CB3E5D7003CA5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2CF3BDB2CB3E5D7003CA5E8 /* Build configuration list for PBXNativeTarget "PhotoPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CF3BDC2CB3E5D7003CA5E8 /* Debug */,
+				A2CF3BDD2CB3E5D7003CA5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2CF3BDE2CB3E5D7003CA5E8 /* Build configuration list for PBXNativeTarget "PhotoPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CF3BDF2CB3E5D7003CA5E8 /* Debug */,
+				A2CF3BE02CB3E5D7003CA5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2CF3BAB2CB3E5D5003CA5E8 /* Project object */;
+}
